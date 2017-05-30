@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>管理员首页</title>
+	<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/manager.css">
+	<script src="../js/jquery-2.1.1.min.js"></script>
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid header after_login navbar navbar-fixed-top">
+		NewThread
+	</div>
+	<div class="side_left">
+		<div class="list-group">
+			<ul>
+				<li><a href="#" class="list-group-item">教室管理</a></li>
+				<ul>
+					<li><a href="#" class="list-group-item" data-toggle="modal">教室信息</a></li>
+					<li><a href="#" class="list-group-item" data-toggle="modal">设备信息</a>/li>
+					<li><a href="#" class="list-group-item" data-toggle="modal">使用说明</a></li>
+					<li><a href="#info_506" class="list-group-item" data-toggle="modal">会议管理</a></li>
+				</ul>
+				<li><a href="#" class="list-group-item">人员管理</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="side_right container-fluid gray">
+		<div class="container-fluid gray">
+			<div class="col-md-7">
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="active"><a href="#info_506" data-toggle="tab" role="tab">506</a></li>
+					<li><a href="#info_507" data-toggle="tab" role="tab">507</a></li>
+					<li><a href="#info_508" data-toggle="tab" role="tab">508</a></li>
+				</ul>
+				<div class="tab-content" id="room_info_content">
+					<div class="tab-pane active" id="info_506">
+						<div class="panel panel-default">
+							<span class="title" >教室信息</span>
+							<div class="panel-body">
+							    <div class="info_content">
+							    	<p>教室名称：<span>506</span></p>
+							    	<p>教室位置：<span>九号教学楼</span></p>
+							    	<p>容纳人数：<span>50<span></p>
+							    	<p>会议管理员：<span>黄君</span></p>
+							    	<p>管理员电话：<span>456789</span></p>
+							    	<p>管理员QQ：<span>123456</span></p>
+							    </div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane" id="info_507">
+						<div class="panel panel-default">
+							<span class="title">教室信息</span>
+							<div class="panel-body">
+							    <div class="info_content">
+							    	<p>教室名称：<span>507</span></p>
+							    	<p>教室位置：<span>九号教学楼</span></p>
+							    	<p>容纳人数：<span>50<span></p>
+							    	<p>会议管理员：<span>马祥睿</span></p>
+							    	<p>管理员电话：<span>456789</span></p>
+							    	<p>管理员QQ：<span>123456</span></p>
+							    </div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane" id="info_508">
+						<div class="panel panel-default">
+							<span class="title">教室信息</span>
+							<div class="panel-body">
+							    <div class="info_content">
+							    	<p>教室名称：<span>508</span></p>
+							    	<p>教室位置：<span>九号教学楼</span></p>
+							    	<p>容纳人数：<span>50<span></p>
+							    	<p>会议管理员：<span>胡志泽</span></p>
+							    	<p>管理员电话：<span>456789</span></p>
+							    	<p>管理员QQ：<span>123456</span></p>
+							    </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="device_info">
+					<div class="panel panel-default">
+						<span class="title">设备信息</span>
+						<div class="panel-body">
+						    <div class="info_content">
+						    	<table class="table">
+						    		<tr>
+						    			<th>设备名称</th>
+						    			<th>设备可用状态</th>
+						    			<th>设备型号</th>
+						    			<th>设置</th>
+						    		</tr>
+						    		<tr>
+						    			<td>投影仪</td>
+						    			<td>可用</td>
+						    			<td>XXX</td>
+						    			<td>
+						    				<a href="">修改</a>
+						    				<a href="">删除</a>
+						    			</td>
+						    		</tr>
+						    		<tr>
+						    			<td>白板</td>
+						    			<td>不可用</td>
+						    			<td>XXX</td>
+						    			<td>
+						    				<a href="">修改</a>
+						    				<a href="">删除</a>
+						    			</td>
+						    		</tr>
+						    		<tr>
+						    			<td>投影仪</td>
+						    			<td>可用</td>
+						    			<td>XXX</td>
+						    			<td>
+						    				<a href="">修改</a>
+						    				<a href="">删除</a>
+						    			</td>
+						    		</tr>
+						    		<tr>
+						    			<td>白板</td>
+						    			<td>不可用</td>
+						    			<td>XXX</td>
+						    			<td>
+						    				<a href="">修改</a>
+						    				<a href="">删除</a>
+						    			</td>
+						    		</tr>
+						    	</table>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-5">
+				<div id="use_instruction">
+					<div class="panel panel-default">
+						<span class="title">使用说明</span>
+						<div class="panel-body">
+						    <div class="info_content">
+						    	教室信息是指会议室的名称、位置、负责人等一些基本信息
+						    	使用说明是会议室的使用说明
+						    	设备信息可查看设备的状态、型号等信息
+						    	鼠标可悬停在会议安排上获取会议基本信息
+						    	点击第几周会议时间安排可获取更多会议信息
+						    	点击左上角不同的教室名进行切换教室
+						    	点击右上角的退出按钮即可退出当前账号回到登录页面
+						    	点击教室名右侧的‘+’按钮进行添加教室
+						    	教室信息是指会议室的名称、位置、负责人等一些基本信息
+						    	使用说明是会议室的使用说明
+						    	设备信息可查看设备的状态、型号等信息
+						    	鼠标可悬停在会议安排上获取会议基本信息
+						    	点击第几周会议时间安排可获取更多会议信息
+						    	点击左上角不同的教室名进行切换教室
+						    	点击右上角的退出按钮即可退出当前账号回到登录页面
+						    	点击教室名右侧的‘+’按钮进行添加教室
+						    	教室信息是指会议室的名称、位置、负责人等一些基本信息
+						    	使用说明是会议室的使用说明
+						    	设备信息可查看设备的状态、型号等信息
+						    	鼠标可悬停在会议安排上获取会议基本信息
+						    	点击第几周会议时间安排可获取更多会议信息
+						    	点击左上角不同的教室名进行切换教室
+						    	点击右上角的退出按钮即可退出当前账号回到登录页面
+						    	点击教室名右侧的‘+’按钮进行添加教室
+						    	教室信息是指会议室的名称、位置、负责人等一些基本信息
+						    	使用说明是会议室的使用说明
+						    	设备信息可查看设备的状态、型号等信息
+						    	鼠标可悬停在会议安排上获取会议基本信息
+						    	点击第几周会议时间安排可获取更多会议信息
+						    	点击左上角不同的教室名进行切换教室
+						    	点击右上角的退出按钮即可退出当前账号回到登录页面
+						    	点击教室名右侧的‘+’按钮进行添加教室
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="meeting_info">
+					<div class="panel panel-default">
+						<span class="title">会议安排</span>
+						<div class="panel-body">
+						    <div class="info_content">
+						    	<div class="meeting_week"></div>
+						    	<div class="meeting_table">
+						    		<table class="table table-striped table-bordered">
+						    			<thead>
+						    				<tr>
+						    					<td></td>				
+						    					<td>周一</td>
+						    					<td>周二</td>
+						    					<td>周三</td>
+						    					<td>周四</td>
+						    					<td>周五</td>
+						    					<td>周六</td>
+						    					<td>周日</td>
+						    				</tr>
+						    			</thead>
+						    			<tbody>
+						    				<tr>
+						    					<td id="re-td-1">10:00</td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    				</tr>
+						    				<tr>
+						    					<td id="re-td-2">12:00</td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    				</tr>
+						    				<tr>
+						    					<td id="re-td-3">14:00</td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    				</tr>
+						    				<tr>
+						    					<td id="re-td-4">16:00</td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    				</tr>
+						    				<tr>
+						    					<td id="re-td-5">18:00</td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    				</tr>
+						    				<tr>
+						    					<td id="re-td-6">20:00</td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    				</tr>
+						    				<tr>
+						    					<td id="re-td-7">22:00</td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    					<td></td>
+						    				</tr>
+						    			</tbody>
+						    		</table>
+						    	</div>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom container-fluid ">
+			技术支持：中南民族大学新思路团队
+		</div>
+	</div>
+</body>	
+</html>

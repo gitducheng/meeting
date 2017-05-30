@@ -1,0 +1,190 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+}
+/*manager_login.html*/
+.header,.footer {
+	height: 70px;
+	font-size: 22px;
+	line-height: 70px;
+	padding: 0 50px;
+	color: #fff;
+	background-color: #008562;
+}
+.login {
+	min-height: 70vh;
+	height: 550px;
+	width: 339px;
+	margin: 0 auto;
+	text-align: center;
+}
+.login input {
+	height: 62px;
+}
+.log {
+	width: 339px;
+	height: 176px;
+	line-height: 176px;
+	font-size: 70px;
+	color: #008562;
+	text-align: center;
+}
+.login div {
+	margin-bottom: 45px;
+}
+#manager_login_btn {
+	width: 337px;
+	height: 49px;
+	color: #fff;
+	text-align: center;
+	background: #008562;
+}
+
+
+
+/*manager_home.html*/
+.after_login {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+.side_left {
+	position: fixed;
+	top: 70px;
+	width: 130px;
+	height: 90vh;
+	background: #1c1e1d;
+}
+.side_left .list-group-item {
+	border: none;
+	border-radius: 0px;
+	background: #1c1e1d;
+}
+.side_left .list-group > ul > li {
+	height: 55px;
+	text-align: center;
+}
+.side_left a.list-group-item:hover {
+	background: #292e2c;
+	color:#d1d1d1;
+}
+.side_left .list-group > ul >li a {
+	font-family: PingFangSC-Semibold;
+	font-size: 22px;
+	color: #d1d1d1;
+	text-align: center;
+	line-height: 55px;
+}
+.side_left ul ul li {
+	height: 35px;
+}
+.side_left ul ul li a {
+	font-size:15px;
+	color:#d1d1d1;
+	text-align: center;
+	line-height: 21px;
+}
+
+.side_right {
+	margin-left: 130px;
+	margin-top: 70px;
+	padding: 0px;
+}
+.bottom {
+	width: 100%;
+	height: 70px;
+	background:#363636;
+	color: #fff;
+	font-size:20px;
+	line-height: 70px;
+	text-align: center;
+}
+span.title {
+	display: inline-block;
+	line-height: 25px;
+	border-bottom: solid 4px #008562;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size:18px;
+	color:#3d3d3d;
+	text-align:left;
+}
+
+.tab-content > .tab-pane {
+    display: none;
+}
+.tab-content > .active {
+    display: block;
+}
+.info_content {
+	margin-left: 30px;
+	font-family: PingFangSC-Regular;
+	font-size: 20px;
+	color: #3d3d3d;
+}
+#device_info {
+	
+}
+#use_instruction {
+	margin-top: 40px;
+}
+#use_instruction .panel {
+	background: rgba(135,135,135,0.43);
+}
+#use_instruction .panel-body {
+	background: #fff;
+	padding: 0px;
+	margin: 15px;
+}
+#use_instruction .info_content {
+	text-indent: 2em;
+	font-size: 14px;
+	line-height: 2em;
+}
+#re-td-1{
+	padding: 32px 8px 0 8px;
+	background-color: #fff;
+	border-top: none;
+	border-bottom: none;
+}
+#re-td-2{
+	padding: 32px 8px 0 8px;
+	background-color: #fff;
+	border-top: none;
+	border-bottom: none;
+}
+#re-td-3{
+	padding: 32px 8px 0 8px;
+	background-color: #fff;
+	border-top: none;
+	border-bottom: none;
+}
+#re-td-4{
+	padding: 32px 8px 0 8px;
+	background-color: #fff;
+	border-top: none;
+	border-bottom: none;
+}
+#re-td-5{
+	padding: 32px 8px 0 8px;
+	background-color: #fff;
+	border-top: none;
+	border-bottom: none;
+}
+#re-td-6{
+	padding: 32px 8px 0 8px;
+	background-color: #fff;
+	border-top: none;
+	border-bottom: none;
+}
+#re-td-7{
+	padding: 32px 8px 0 8px;
+	background-color: #fff;
+	border-top: none;
+	border-bottom: none;
+}

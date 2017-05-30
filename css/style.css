@@ -1,0 +1,456 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.header,.footer {
+	height: 70px;
+	font-size: 22px;
+	/*line-height: 70px;*/
+	padding: 0 50px;
+	color: #fff;
+	background-color: #156ecd;
+}
+.header span {
+	line-height: 70px;
+}
+.footer {
+	line-height: 70px;
+}
+.register{
+	font-size: 22px;
+	color: #fff;
+	line-height: 70px;
+	float: right;
+	padding: 0 20px;
+}
+a.register:hover {
+	color: #fff;
+	text-decoration: none;
+	background: rgba(0,0,0,.1);
+}
+.hybd{
+	margin: 30px auto;
+	width: 60%;
+}
+.table-wrap{
+	margin-top: 15px;
+	border: 1px solid #1e8ae8;
+	border-radius: 8px;
+}
+.meeting_table .table{
+	margin-bottom: 0;
+}
+.meeting_table td{
+	position: relative;
+	height: 53px;
+}
+.meeting_table tr:nth-child(odd){
+	background-color: #fcfdfe;
+}
+.meeting_table tr:nth-child(even){
+	background-color: #f7fafc;
+}
+.meeting_table #re-td-1{
+	padding: 32px 8px 0 8px;
+	background-color: #fff;
+	border-top: none;
+	border-bottom: none;
+}
+.meeting_table #re-td-2{
+	padding: 32px 8px 0 8px;
+	background-color: #fff;
+	border-top: none;
+	border-bottom: none;
+}
+.meeting_table #re-td-3{
+	padding: 32px 8px 0 8px;
+	background-color: #fff;
+	border-top: none;
+	border-bottom: none;
+}
+.meeting_table #re-td-4{
+	padding: 32px 8px 0 8px;
+	background-color: #fff;
+	border-top: none;
+	border-bottom: none;
+}
+.meeting_table #re-td-5{
+	padding: 32px 8px 0 8px;
+	background-color: #fff;
+	border-top: none;
+	border-bottom: none;
+}
+.meeting_table #re-td-6{
+	padding: 32px 8px 0 8px;
+	background-color: #fff;
+	border-top: none;
+	border-bottom: none;
+}
+.meeting_table #re-td-7{
+	padding: 32px 8px 0 8px;
+	background-color: #fff;
+	border-top: none;
+	border-bottom: none;
+}
+/* 颜色定义 */
+.blue{
+	background-color: #147ac9;
+}
+.gray{
+	background-color: #eceef3;
+}
+
+
+.xinxi{
+	display: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 999;
+	font-size: 24px;
+	color: #000;
+	border: 1px solid #979797;
+	width: 326px;
+	height: 235px;
+	border-radius: 10px;
+	padding: 20px 25px;
+	background:rgba(215,215,215,0.30);
+}
+
+
+
+
+
+
+
+
+
+/*apply.html*/
+#main_apply {
+	padding-top: 20px;
+}
+label {
+	margin-bottom: 10px;
+	border-bottom: solid 4px #156ecd;
+	font-size: 22px;
+	font-weight: normal;
+	color: #000;
+	text-align: left;
+}
+#apply_form input {
+	margin-left: 20px;
+}
+#meeting_name,
+#proposer_name,
+#proposer_tel,
+#proposer_mail {
+	background:#ece9e9;
+	border:1px solid #979797;
+	border-radius:10px;
+}
+#time_start,
+#time_end {
+	background:#ece9e9;
+	border:1px solid #979797;
+}
+#proposer_name,#proposer_tel,#proposer_mail {
+	margin-bottom: 15px;
+}
+#meeting_name {
+	width: 60%;
+	height:38px;
+	color:  #979797;
+}
+#apply_form input[type="checkbox"] {
+	background: green;
+}
+#proposer_name {
+	width: 20%;
+}
+#proposer_tel {
+	width: 30%;
+}
+#proposer_mail {
+	width: 40%;
+}
+#datetimepicker6,
+#datetimepicker7 {
+	margin-left: -30px;
+}
+
+#datetimepicker6 input,
+#datetimepicker7 input {
+	/*margin-right: -15px;*/
+}
+#datetimepicker6 span,
+#datetimepicker7 span {
+	padding-left: 20px;
+}
+.form_date span span {
+	padding-right: 10px;
+}
+.time_link {
+	text-align: center;
+	line-height: 34px;
+}
+
+.tab-content > .tab-pane {
+    display: none;
+}
+.tab-content > .active {
+    display: block;
+}
+.clear_tabs {
+	clear: right;
+}
+#room_tab .active a {
+	border-bottom: solid 4px #156ecd;
+}
+#term_select {
+	margin-bottom: 10px;
+}
+textarea {
+	margin-left: 20px;
+}
+#submit {
+	margin-bottom: 20px;
+}
+
+
+
+
+
+/*login.html*/
+.login {
+	min-height: 70vh;
+	height: 550px;
+	width: 339px;
+	margin: 0 auto;
+	text-align: center;
+}
+.login input {
+	height: 62px;
+}
+.log {
+	width: 339px;
+	height: 176px;
+	line-height: 176px;
+	font-size:70px;
+	color:#3681bc;
+	text-align:center;
+}
+.login div {
+	margin-bottom: 45px;
+}
+#login_btn {
+	width: 337px;
+	height: 49px;
+	color: #fff;
+	text-align: center;
+	background: #156ecd;
+}
+
+/*before_login.html*/
+.current_week_meetings {
+	margin-bottom: 70px;
+}
+/*.meeting_table td:hover {
+	background: #156ecd;
+	color: #fff;
+}*/
+.meeting_table thead td:hover {
+	background: #fff;
+	color: black;
+}
+.meeting_table td {
+	text-align: center;
+	line-height: 53px;
+}
+.meeting_table .table>tbody>tr>td {
+	vertical-align: middle;
+}
+
+/*after_login.html*/
+.apply{
+	margin-right: 30px;
+	line-height: 70px;
+	float: right;
+	font-size:22px;
+	color:#e0e0e0;
+	text-decoration: none;
+}
+.menu{
+	float: right;
+	position: relative;
+}
+.menu-list{
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+.menu-list li{
+	list-style: none;
+	opacity:0.87;
+	background-color:#156ecd;
+	height:40px;
+	width: 117px;
+	text-align:center;
+}
+.menu-list li:hover{
+	background-color: #1062b9;
+}
+
+.menu-list li a{
+	font-size:18px;
+	color:#e1e1e1;
+	text-decoration: none;
+}
+#menu-icon{
+	text-align: center;
+	width: 117px;
+	height: 70px;
+}
+#menu-icon:hover{
+	background-color: #1062b9;
+}
+#menu-icon span{
+	line-height: 70px;
+}
+.menu:hover .menu-list{
+	display: block;
+}
+#exit{
+	border-top: 1px solid rgba(170,170,170,0.57);
+}
+.contain-right{
+	margin-right: 0;
+	margin-left: 50px;
+}
+.contain-right h4{
+	width: 90px;
+	border-bottom: 3px solid #156ecd;
+}
+.row-width{
+	width: 80%;
+	margin: 0 auto;
+}
+.sbzt{
+	margin-top: 30px;
+}
+.sbzt ul li{
+	list-style: none;
+}
+.zt-list li i{
+	display: inline-block;
+	border:1px solid #979797;
+	border-radius:2px;
+	width:8px;
+	height:8px;
+	margin-left: 40px;
+}
+.hys{
+	margin-top: 70px;
+}
+.hys span{
+	margin-left: 20px;
+}
+.hys ul li{
+	list-style: none;
+}
+.gly{
+	margin-top: 90px;
+}
+.gly ul li{
+	list-style: none;
+}
+/*个人信息*/
+.xx-list{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+.xx-list li{
+	margin-top: 15px;
+	list-style: none;
+	font-size: 22px;
+}
+.xx-list li input{
+	border: none;
+	padding: 0 5px;
+}
+.xx-title{
+	font-size: 24px;
+	width: 157px;
+	border-bottom: 3px solid #156ecd;
+}
+.change{
+	width: 100px;
+	height: 45px;
+	color: #fafafa;
+	font-size: 20px;
+	border-radius: 8px;
+	background-color: #156ecd;
+	border: 1px solid #979797;
+	float: right;
+	margin-top: 20px;
+}
+.pass-change{
+	width: 100px;
+	height: 45px;
+	color: #fafafa;
+	font-size: 20px;
+	border-radius: 8px;
+	background-color: #156ecd;
+	border: 1px solid #979797;
+	margin-top: 20px;
+	float: right;
+}
+/*已申请、以往申请*/
+.sq{
+	font-size:22px;
+	color:#000000;
+	width: 100px;
+	border-bottom: 4px solid #156ecd;
+}
+.ysq{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+.ysq li{
+	line-height: 46px;
+	font-size:22px;
+	color:#505050;
+	list-style: none;
+}
+.ysq li button{
+	float: right;
+	border: none;
+}
+.g-border{
+	display: inline-block;
+	border-bottom:2px solid rgba(21,110,205,.11);
+	width:234px;
+}
+.g-time{
+	float: right;
+}
+.pad-top{
+	padding-top: 70px;
+}
+.mar-bottom{
+	margin-bottom: 70px;
+}
+
+/*meeting_forms.html*/
+.term_select {
+	margin-bottom: 10px;
+}
+
+/*四分之一单元格*/
+.qtr-wrap{
+	padding: 0 !important ;
+}
+.quarter{
+	height: 25%;
+	width: 100%;
+	//background-color: red;
+}

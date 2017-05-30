@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="refresh" content="" />
+	<title>前台用户登录页</title>
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="./js/jquery-2.1.1.min.js"></script>
+	<script src="./bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid header">
+		
+	</div>
+	<div class="login">
+		<div class="log">
+			NewThread
+		</div>
+		<div class="input-group" >
+		  <span class="input-group-addon" id="sizing-addon1">账号</span>
+		  <input type="text" class="form-control" aria-describedby="sizing-addon1" id="username">
+		</div>
+
+		<div class="input-group">
+		  <span class="input-group-addon" id="sizing-addon2">密码</span>
+		  <input type="password" class="form-control" aria-describedby="sizing-addon2" id="password">
+		</div>
+		<div class="input-group">
+		 	<button class="btn btn-default" id="login_btn">登录</button>
+		</div>
+	</div>
+	<div class="container-fluid gray"></div>
+	<div class="container-fluid footer text-center">
+		技术支持：中南民族大学新思路团队
+	</div>
+	<script>
+		// $("#login_btn").onclick = function() {
+		// 	alert("jjk");
+		// 	window.open("localhost/meeting/after_login.html");
+		// }
+		document.getElementById("login_btn").onclick = function() {
+			window.open("after_login.html");
+		}
+		// $(document).ready(function() {
+		// 	$("#login_btn").click(function() {	
+		// 		$.ajax({
+		// 			type: "GET",
+		// 			url: "api/login.php",
+				
+		// 			dataType: "json",
+		// 			success: function(data) {
+		// 				if(data.success) {
+		// 					console.log(data.responeText);
+		// 				}
+		// 			}
+		// 		});
+		// 	});
+		// });
+
+
+		// var login_btn = document.getElementById("login_btn");
+		// login_btn.onclick = function() {
+		// 	var request = new XMLHttpRequest();
+		// 	request.open("POST", "api/login.php");
+		// 	var data = "username=" + document.getElementById("username").value 
+		// 	                  + "&password=" + document.getElementById("password").value;
+		// 	request.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+		// 	request.send(data);
+		// 	request.onreadystatechange = function() {
+		// 		if (request.readyState===4) {
+		// 			if (request.status===200) { 
+		// 				var data = JSON.parse(request.responseText);
+		// 				switch (data.msg) {
+		// 					case "0psw" :
+		// 						alert("密码输入错误");
+		// 						break;
+		// 					case "0usm":
+		// 						alert("该用户名还没有注册");
+		// 						break;
+		// 					case "success":
+		// 						console.log("登录成功");
+		// 						break;
+		// 				}
+		// 			} else {
+		// 				alert("发生错误：" + request.status);
+		// 			}
+		// 		} 
+		// 	}
+		// }
+	</script>
+	<script>
+		
+	</script>
+</body>
+</html>
+
+<!-- 需要的数据 -->
